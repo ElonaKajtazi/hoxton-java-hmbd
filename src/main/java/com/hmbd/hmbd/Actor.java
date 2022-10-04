@@ -25,9 +25,9 @@ public class Actor {
     }
 
     static {
-        new Actor("Brad", "Pitt", 1963, 1);
-        new Actor("Tom", "Holland", 1996, 2);
-        new Actor("Edward", "Norton", 1993, 1);
-        new Actor("Zendaya", "Coleman", 1996, 2);
+        new Actor("Brad", "Pitt", 1963, 0);
+        new Actor("Tom", "Holland", 1996, 1);
+        new Actor("Edward", "Norton", 1993, 0);
+        new Actor("Zendaya", "Coleman", 1996, 1);
     }
 }

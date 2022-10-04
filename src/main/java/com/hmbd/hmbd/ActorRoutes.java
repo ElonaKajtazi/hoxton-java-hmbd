@@ -2,6 +2,7 @@ package com.hmbd.hmbd;
 
 import java.util.ArrayList;
 
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -33,5 +34,10 @@ public class ActorRoutes {
     @PostMapping("/actors")
     public Actor createActor(@RequestBody Actor actor) {
         return actor;
+    }
+
+    @DeleteMapping("/actors/{id}")
+    public void deleteActors(@PathVariable Integer id) {
+        Actor.actors.removeIf(actor -> actor.id == id);
     }
 }
