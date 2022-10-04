@@ -10,12 +10,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //   - A movie - id, title, description, year, actors (yep, another one-to-many). ✅
 
 // - Build Class methods and Springboot Controllers to achieve these endpoints:
-//   - Get a movie with all its actors
-//   - Get a single actor 
-//   - Create a new actor and immediately assign them to a movie.
-//   - Create a new movie
-// - Think of a way to auto-increment a new id each time we create a new movie or actor
-// - Populate the app with some sample data and test the API
+//   - Get a movie with all its actors ✅
+//   - Get a single actor ✅
+//   - Create a new actor and immediately assign them to a movie. ✅
+//   - Create a new movie ✅
+// - Think of a way to auto-increment a new id each time we create a new movie or actor ✅
+// - Populate the app with some sample data and test the API ✅
 @SpringBootApplication
 public class HmbdApplication {
 
